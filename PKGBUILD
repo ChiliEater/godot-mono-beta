@@ -1,9 +1,9 @@
 # Maintainer: Marvin Dalheimer <me@marvin-dalheimer.de>
-pkgname=godot-mono-beta-bin
+pkgname=godot-mono-beta
 pkgver=4.1.beta3
 _vername=4.1
 _subvername=beta3
-pkgrel=2
+pkgrel=1
 pkgdesc="Godot is an advanced, feature packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel."
 arch=("x86_64")
 url="https://www.godotengine.org"
