@@ -10,4 +10,4 @@ makepkg -d
 sudo mv *.pkg.tar.zst "$mirror"
 
 echo "Updating database"
-sudo "$mirror_root/$relative_script $repo"
+sudo "$mirror_root/$relative_script" "$repo"
