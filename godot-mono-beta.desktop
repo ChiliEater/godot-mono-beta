@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Godot Mono
+Name=Godot Mono Beta
 Comment=Application for making games
 Exec=/usr/bin/godot-mono %U
 Icon=godot-mono
