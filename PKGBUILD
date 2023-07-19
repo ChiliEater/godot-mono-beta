@@ -9,8 +9,12 @@ url="https://www.godotengine.org"
 license=('MIT')
 depends=("dotnet-sdk" "msbuild")
 source=("godot-mono-beta.desktop" "icons.tar.gz")
-#source_x86_64=("$pkgname-$pkgver-x86_64.zip::https://downloads.tuxfamily.org/godotengine/"$_vername"/"$_subvername"/mono/Godot_v"$_vername"-"$_subvername"_mono_linux_x86_64.zip")
-source_x86_64=("$pkgname-$pkgver-x86_64.zip::https://github.com/godotengine/godot/releases/download/"$_vername"/Godot_v"$_vername"_mono_linux_x86_64.zip")
+
+# Pre-release source
+source_x86_64=("$pkgname-$pkgver-x86_64.zip::https://github.com/godotengine/godot-builds/releases/download/"$_vername"/Godot_v"$_vername"_mono_linux_x86_64.zip")
+
+# Release source
+#source_x86_64=("$pkgname-$pkgver-x86_64.zip::https://github.com/godotengine/godot/releases/download/"$_vername"/Godot_v"$_vername"_mono_linux_x86_64.zip")
 
 package() {
   mkdir -p "$pkgdir/opt/$pkgname"
@@ -28,4 +32,4 @@ package() {
 }
 sha256sums=('9a47eb9c28aa8c189d700b10a10d9e0dd54325d442e3cd34d75de16f65c656ea'
          'ad95194d449ecb83ed4c01332fbf6b6469250a448aff8705c27157e91bea7f5a')
-sha512sums_x86_64=('771e3c88bb463d1d1d1080c711e98b2e4f9cb9e06d94b388157efcce6d4389c23d9ac17d06eebb3490e27aa547e6ebab05e78977591a8dc3bc55f90a7e4cdc22')
+sha512sums_x86_64=('0d850158973aee992bbb6cbbe22826a5909b89032d354bbadeba1bf561e85769269c7730ae4be307473e276f6c88d69d98fbbae7fa01e43571ee3b850542362a')
