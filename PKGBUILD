@@ -1,7 +1,7 @@
 # Maintainer: Marvin Dalheimer <me@marvin-dalheimer.de>
 pkgname=godot-mono-beta
-pkgver=4.3.dev5
-_vername=4.3-dev5
+pkgver=4.3.dev6
+_vername=4.3-dev6
 pkgrel=1
 pkgdesc="Godot is an advanced, feature packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel."
 arch=("x86_64")
@@ -32,4 +32,4 @@ package() {
 }
 sha256sums=('9a47eb9c28aa8c189d700b10a10d9e0dd54325d442e3cd34d75de16f65c656ea'
          'ad95194d449ecb83ed4c01332fbf6b6469250a448aff8705c27157e91bea7f5a')
-sha256sums_x86_64=('b8d34f3c7c2c80bdae17b351377c1acbb2cff3a83640696dbb712dde1106c829')
+sha512sums_x86_64=('48d7639eb53415f54ab720f3df82c0075a735a30809dca071ccf5c381113e747f2797bcdcfa335246041881a8098581b6135fe27749a7278d0bd4706c22fdb15')
