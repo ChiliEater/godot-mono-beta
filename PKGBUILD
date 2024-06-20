@@ -1,7 +1,7 @@
 # Maintainer: Marvin Dalheimer <me@marvin-dalheimer.de>
 pkgname=godot-mono-beta
-pkgver=4.3.beta1
-_vername=4.3-beta1
+pkgver=4.3.beta2
+_vername=4.3-beta2
 pkgrel=1
 pkgdesc="Godot is an advanced, feature packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel."
 arch=("x86_64")
@@ -30,6 +30,6 @@ package() {
   chmod +x "$pkgdir/opt/$pkgname/godot/Godot_v${_vername}_mono_linux.x86_64"
   ln -s "/opt/$pkgname/godot/Godot_v${_vername}_mono_linux.x86_64" "$pkgdir/usr/bin/godot-mono-beta"
 }
-sha256sums=('9a47eb9c28aa8c189d700b10a10d9e0dd54325d442e3cd34d75de16f65c656ea'
-         'ad95194d449ecb83ed4c01332fbf6b6469250a448aff8705c27157e91bea7f5a')
-sha512sums_x86_64=('094115a675c5434657c4954747d376c4d296a08702fa2d14c432263fe5f66dac16700a20dac7fe8b7dd1537c243ea74ccb16ea738e267f9da7662c1a23f87405')
+sha512sums=('4d72932f99fa2be2f532ed81b519f4279121f2d389ab4785a396079c41bd31c0ffb448722b7e63e7aae202348ae2cd9e972ff7fd6989c0949374d2628564f166'
+            '9dae1e5e48b09a2d256b476e8f4341416e839f8f6c4d692ea043d4ccff3a66419d752fead8ad7aadbe3439634b12a6afb1fcab82d47811b9b65318133726b623')
+sha512sums_x86_64=('aa576e283a0c81aae83990502032456f98a11327f2eb2769c7bda2942c6a553f94d5511e53ee174133f25153ead17f01c6d286651c100258cec6ec4495c394f5')
